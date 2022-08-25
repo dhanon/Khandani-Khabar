@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5282AB2228AB8BFD0031F09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282AB2128AB8BFD0031F09B /* AppDelegate.swift */; };
+		5282AB2428AB8BFD0031F09B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282AB2328AB8BFD0031F09B /* SceneDelegate.swift */; };
+		5282AB2628AB8BFD0031F09B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282AB2528AB8BFD0031F09B /* ViewController.swift */; };
+		5282AB2928AB8BFD0031F09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282AB2728AB8BFD0031F09B /* Main.storyboard */; };
+		5282AB2B28AB8BFF0031F09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5282AB2A28AB8BFF0031F09B /* Assets.xcassets */; };
+		5282AB2E28AB8BFF0031F09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282AB2C28AB8BFF0031F09B /* LaunchScreen.storyboard */; };
+		5282AB3628AB92720031F09B /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282AB3528AB92720031F09B /* CustomTVC.swift */; };
+		52C6442428AF9D8600C9AD0E /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6442328AF9D8600C9AD0E /* AboutUs.swift */; };
+		52C6442628AF9D9E00C9AD0E /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6442528AF9D9E00C9AD0E /* Favorite.swift */; };
+		52C6442828AF9DB400C9AD0E /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6442728AF9DB400C9AD0E /* Share.swift */; };
+		52C6442C28AFBB5200C9AD0E /* ManuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6442B28AFBB5200C9AD0E /* ManuTVC.swift */; };
+		52CAB6AC28B644D7009C2F5B /* DescribeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CAB6AB28B644D7009C2F5B /* DescribeVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1894602BB373405B6C548A78 /* Pods-খানদানী খাবার.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-খানদানী খাবার.debug.xcconfig"; path = "Target Support Files/Pods-খানদানী খাবার/Pods-খানদানী খাবার.debug.xcconfig"; sourceTree = "<group>"; };
+		5282AB1E28AB8BFD0031F09B /* খানদানী খাবার.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "খানদানী খাবার.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5282AB2128AB8BFD0031F09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5282AB2328AB8BFD0031F09B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5282AB2528AB8BFD0031F09B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5282AB2828AB8BFD0031F09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5282AB2A28AB8BFF0031F09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5282AB2D28AB8BFF0031F09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5282AB2F28AB8BFF0031F09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5282AB3528AB92720031F09B /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		52C6442328AF9D8600C9AD0E /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		52C6442528AF9D9E00C9AD0E /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		52C6442728AF9DB400C9AD0E /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		52C6442B28AFBB5200C9AD0E /* ManuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuTVC.swift; sourceTree = "<group>"; };
+		52CAB6AB28B644D7009C2F5B /* DescribeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescribeVC.swift; sourceTree = "<group>"; };
+		9184D2FFF1709DF81B43A796 /* Pods-খানদানী খাবার.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-খানদানী খাবার.release.xcconfig"; path = "Target Support Files/Pods-খানদানী খাবার/Pods-খানদানী খাবার.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5282AB1B28AB8BFD0031F09B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D41A05CB830EA27088CC8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1894602BB373405B6C548A78 /* Pods-খানদানী খাবার.debug.xcconfig */,
+				9184D2FFF1709DF81B43A796 /* Pods-খানদানী খাবার.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5282AB1528AB8BFD0031F09B = {
+			isa = PBXGroup;
+			children = (
+				5282AB2028AB8BFD0031F09B /* খানদানী খাবার */,
+				5282AB1F28AB8BFD0031F09B /* Products */,
+				20D41A05CB830EA27088CC8B /* Pods */,
+				63DB104DDB692F063A36CC0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5282AB1F28AB8BFD0031F09B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5282AB1E28AB8BFD0031F09B /* খানদানী খাবার.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5282AB2028AB8BFD0031F09B /* খানদানী খাবার */ = {
+			isa = PBXGroup;
+			children = (
+				52C6442A28AFA32400C9AD0E /* Delegate */,
+				52C6442028AF9D0300C9AD0E /* Controller */,
+				52C6442928AF9DC000C9AD0E /* Side Menu */,
+				52C6442128AF9D3B00C9AD0E /* View */,
+				5282AB2A28AB8BFF0031F09B /* Assets.xcassets */,
+				5282AB2C28AB8BFF0031F09B /* LaunchScreen.storyboard */,
+				5282AB2F28AB8BFF0031F09B /* Info.plist */,
+			);
+			path = "খানদানী খাবার";
+			sourceTree = "<group>";
+		};
+		52C6442028AF9D0300C9AD0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5282AB2528AB8BFD0031F09B /* ViewController.swift */,
+				5282AB3528AB92720031F09B /* CustomTVC.swift */,
+				52C6442B28AFBB5200C9AD0E /* ManuTVC.swift */,
+				52CAB6AB28B644D7009C2F5B /* DescribeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52C6442128AF9D3B00C9AD0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5282AB2728AB8BFD0031F09B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52C6442928AF9DC000C9AD0E /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				52C6442528AF9D9E00C9AD0E /* Favorite.swift */,
+				52C6442728AF9DB400C9AD0E /* Share.swift */,
+				52C6442328AF9D8600C9AD0E /* AboutUs.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		52C6442A28AFA32400C9AD0E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5282AB2128AB8BFD0031F09B /* AppDelegate.swift */,
+				5282AB2328AB8BFD0031F09B /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		63DB104DDB692F063A36CC0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5282AB1D28AB8BFD0031F09B /* খানদানী খাবার */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5282AB3228AB8BFF0031F09B /* Build configuration list for PBXNativeTarget "খানদানী খাবার" */;
+			buildPhases = (
+				B43263E8516BC76E7FC2E7E4 /* [CP] Check Pods Manifest.lock */,
+				5282AB1A28AB8BFD0031F09B /* Sources */,
+				5282AB1B28AB8BFD0031F09B /* Frameworks */,
+				5282AB1C28AB8BFD0031F09B /* Resources */,
+				19DE5A2F46C629D0ADE990C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "খানদানী খাবার";
+			productName = "খানদানী খাবার";
+			productReference = 5282AB1E28AB8BFD0031F09B /* খানদানী খাবার.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5282AB1628AB8BFD0031F09B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5282AB1D28AB8BFD0031F09B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 5282AB1928AB8BFD0031F09B /* Build configuration list for PBXProject "খানদানী খাবার" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5282AB1528AB8BFD0031F09B;
+			productRefGroup = 5282AB1F28AB8BFD0031F09B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5282AB1D28AB8BFD0031F09B /* খানদানী খাবার */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5282AB1C28AB8BFD0031F09B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5282AB2E28AB8BFF0031F09B /* LaunchScreen.storyboard in Resources */,
+				5282AB2B28AB8BFF0031F09B /* Assets.xcassets in Resources */,
+				5282AB2928AB8BFD0031F09B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19DE5A2F46C629D0ADE990C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-খানদানী খাবার/Pods-খানদানী খাবার-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-খানদানী খাবার/Pods-খানদানী খাবার-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-খানদানী খাবার/Pods-খানদানী খাবার-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B43263E8516BC76E7FC2E7E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-খানদানী খাবার-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5282AB1A28AB8BFD0031F09B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5282AB2628AB8BFD0031F09B /* ViewController.swift in Sources */,
+				52CAB6AC28B644D7009C2F5B /* DescribeVC.swift in Sources */,
+				5282AB2228AB8BFD0031F09B /* AppDelegate.swift in Sources */,
+				52C6442828AF9DB400C9AD0E /* Share.swift in Sources */,
+				52C6442428AF9D8600C9AD0E /* AboutUs.swift in Sources */,
+				52C6442628AF9D9E00C9AD0E /* Favorite.swift in Sources */,
+				5282AB3628AB92720031F09B /* CustomTVC.swift in Sources */,
+				52C6442C28AFBB5200C9AD0E /* ManuTVC.swift in Sources */,
+				5282AB2428AB8BFD0031F09B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5282AB2728AB8BFD0031F09B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5282AB2828AB8BFD0031F09B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5282AB2C28AB8BFF0031F09B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5282AB2D28AB8BFF0031F09B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5282AB3028AB8BFF0031F09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5282AB3128AB8BFF0031F09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5282AB3328AB8BFF0031F09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1894602BB373405B6C548A78 /* Pods-খানদানী খাবার.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2P6GQY372K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "খানদানী খাবার/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anon.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5282AB3428AB8BFF0031F09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9184D2FFF1709DF81B43A796 /* Pods-খানদানী খাবার.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2P6GQY372K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "খানদানী খাবার/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anon.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5282AB1928AB8BFD0031F09B /* Build configuration list for PBXProject "খানদানী খাবার" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5282AB3028AB8BFF0031F09B /* Debug */,
+				5282AB3128AB8BFF0031F09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5282AB3228AB8BFF0031F09B /* Build configuration list for PBXNativeTarget "খানদানী খাবার" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5282AB3328AB8BFF0031F09B /* Debug */,
+				5282AB3428AB8BFF0031F09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5282AB1628AB8BFD0031F09B /* Project object */;
+}

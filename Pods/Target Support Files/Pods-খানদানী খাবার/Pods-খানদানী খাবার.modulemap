@@ -1,0 +1,6 @@
+framework module Pods______________ {
+  umbrella header "Pods-খানদানী খাবার-umbrella.h"
+
+  export *
+  module * { export * }
+}
